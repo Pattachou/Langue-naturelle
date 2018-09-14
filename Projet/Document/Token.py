@@ -1,4 +1,6 @@
-from NLP.Projet.Interval import Interval
+from _tracemalloc import start
+
+from NLP.Projet.Document.Interval import Interval
 
 
 class Token(Interval):
